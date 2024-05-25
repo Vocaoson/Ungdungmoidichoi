@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <h2 style="color: red;text-align: center;">Chào mừng bạn đến với trang hẹn đi chơi của Sơn.</h2>
+    <p style="color: blue; text-align: center;">Vui lòng chọn các lựa chọn bạn thấy phù hợp.</p>
+
+    <div style="background-color: green; padding: 12px;">
+        <label for="dress-code">Chọn Dress-code</label>
+
+        <select name="dress-code" id="dress-code">
+            <option value="black">Đen</option>
+            <option value="blue">Xanh Dương</option>
+            <option value="red">Đỏ</option>
+        </select>
+        <br>
+        <label for="loai-xe">Loại xe</label>
+
+        <select name="loai-xe" id="loai-xe">
+            <option value="luxa">Luxa</option>
+            <option value="sonet">Sonet</option>
+            <option value="wave">Wave</option>
+        </select>
+        <br>
+        <label for="loai-choi">Loại chơi</label>
+
+        <select name="loai-choi" id="loai-choi">
+            <option value="dulich">Du lịch</option>
+            <option value="caphe">Cà phê</option>
+            <option value="antoi">Ăn tối</option>
+        </select>
+        <br>
+        <button onclick="khachClick()">Chốt lịch</button>
+    </div>
+
+</body>
+
+<script>
+
+function khachClick(){
+    alert("Bạn đã chốt lịch thành công. Vui lòng chờ phản hồi.");
+}
+</script>
+</html>
